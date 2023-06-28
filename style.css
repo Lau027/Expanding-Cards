@@ -1,0 +1,61 @@
+
+/* IMAGENES */
+
+.imagen1 {background-image: url(Images/Venezuela1.png)}
+
+.imagen2 {background-image: url(Images/Caracas-Venezuela.jpg)}
+
+.imagen3 {background-image: url(Images/Medanos\ de\ coro.png)}
+
+.imagen4 {background-image: url(Images/Pico\ Espejo.png)}
+
+.imagen5 {background-image: url(Images/Playa.png)}
+
+.imagen6 {background-image: url(Images/Salto\ Angel.png)}
+
+/* CONTENEDORES */
+
+.container__imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 95vw;
+    overflow: hidden;
+    margin: auto;
+} 
+
+.container__imagenes-imagen {
+    height: 90%;
+    width: 5%;
+    border-radius: 70px;
+    background-size: cover;
+    display: flex;
+    cursor: pointer;
+    transition: all 700ms ease-in;
+}
+
+.active{
+    width: 65%;
+    
+}
+
+.active p {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+ /* TEXTO */
+
+.texto__imagen { 
+    margin-left: 45px;
+    margin-bottom: 20px;
+    color: #000;
+    -webkit-text-stroke: .5px #fff;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    align-self: end;   
+    opacity: 0;
+}
+
